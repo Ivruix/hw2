@@ -1,24 +1,17 @@
-# PositiveCTF
+#  Выполнил
 
-A set of tasks for cracking implementations of smart-contracts with typical vulnerabilities.
+Каверин Максим, БПИ217
 
-## Play
+# Решенные задачи
 
-Visit [positive.com](https://www.positive.com/ctf)
-
-OR
-
-Clone the repository and solve locally, a separate test is made for each problem
-
-<details>
-  <summary>Hints</summary>
-  
-In some cases it may be necessary to write part of the exploit in the `setUp()` function, due to the peculiarities of processing the `SELFDESTRUCT` command in Foundry. 
-  
-</details>
-
-## Disclaimer
-
-All Solidity code, practices and patterns in this repository are for educational purposes only.
-
-DO NOT USE IN PRODUCTION.
+| Название       | Номер | Баллы |
+|----------------|-------|-------|
+| Azino777       | 1     | 0.5   |
+| PrivateRyan    | 2     | 0.5   |
+| WheelOfFortune | 3     | 0.5   |
+| FindMe         | 4     | 0.5   |
+| CallMeMaybe    | 5     | 1     |
+| AntiRugPull    | 9     | 3     |
+| FakeDAO        | 10    | 2     |
+| WrappedEther   | 13    | 2     |
+| Всего          |       | 10    |

